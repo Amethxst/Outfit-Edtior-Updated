@@ -1309,6 +1309,7 @@ namespace xDev
                 tbhat.Visibility = Visibility.Visible;
                 tblegs.Visibility = Visibility.Visible;
                 tbmask.Visibility = Visibility.Visible;
+                tbbracelets.Visibility = Visibility.Visible;
 
                 ddaccessories.Visibility = Visibility.Collapsed;
                 ddbracelets.Visibility = Visibility.Collapsed;
@@ -1338,6 +1339,7 @@ namespace xDev
                 tbhat.Visibility = Visibility.Collapsed;
                 tblegs.Visibility = Visibility.Collapsed;
                 tbmask.Visibility = Visibility.Collapsed;
+                tbbracelets.Visibility = Visibility.Collapsed;
 
                 ddaccessories.Visibility = Visibility.Visible;
                 ddbracelets.Visibility = Visibility.Visible;

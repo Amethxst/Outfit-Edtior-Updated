@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\meazz\Documents\GitHub\Outfit-Edtior-Updated\xDev\obj\x64\Release\
+D:\xDEV\Outfit-Edtior-2.61\xDev\obj\x64\Release\
 xDev
 none
 false
 DEBUG;TRACE
-C:\Users\meazz\Documents\GitHub\Outfit-Edtior-Updated\xDev\App.xaml
+D:\xDEV\Outfit-Edtior-2.61\xDev\App.xaml
 121312899632
 
-12-1153272882
-16329851105
+11-1704639074
+16-1655258183
 Controls\Checkbox.xaml;Controls\ComboBox.xaml;Controls\CustomButton.xaml;Controls\CustomTB.xaml;Controls\ListViewItem.xaml;Controls\PopupImage.xaml;Controls\ScrollViewer.xaml;Controls\TitleBarButtons.xaml;Controls\ToolTip.xaml;Controls\Watermark.xaml;Controls\WatermarkOld.xaml;Outfit Editor.xaml;
 
-True
+False
 
