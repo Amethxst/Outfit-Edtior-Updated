@@ -333,6 +333,17 @@
                                                     <TextBox x:Name="tbwatchestexture" Grid.Column="1" Style="{StaticResource Watermark}" Width="30" Height="30" TextChanged="tbwatchestexture_TextChanged" GotKeyboardFocus="tb_GotKeyboardFocus" Visibility="{Binding ElementName=tbwatches, Path=Visibility}"/>
                                                 </Grid>
 
+                                                <Grid Margin="2" Visibility="{Binding ElementName=tbbracelets, Path=Visibility}">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="auto"/>
+                                                        <ColumnDefinition Width="auto"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBox x:Name="tbbracelets" Grid.Column="0" Style="{StaticResource Watermark}" Tag="Bracelets" Width="210" Height="30" Margin="5 0" TextChanged="tbbracelets_TextChanged" GotKeyboardFocus="tb_GotKeyboardFocus" />
+                                                    <TextBox x:Name="tbbraceletstexture" Grid.Column="1" Style="{StaticResource Watermark}" Width="30" Height="30" TextChanged="tbbraceletstexture_TextChanged" GotKeyboardFocus="tb_GotKeyboardFocus"/>
+                                                </Grid>
+
+
+
                                                 <ComboBox Visibility="Collapsed" Margin="2" Height="30" x:Name="ddbracelets" Width="250" Tag="Bracelets" ToolTip="Bracelets" ItemTemplate="{StaticResource clothing}" SelectionChanged="ddbracelets_SelectionChanged"/>
                                                 <ComboBox Visibility="Collapsed" Margin="2" Height="30" x:Name="ddears" Width="250" Tag="Ears" ToolTip="Ears" ItemTemplate="{StaticResource clothing}" SelectionChanged="ddears_SelectionChanged"/>
                                                 <ComboBox Visibility="Collapsed" Margin="2" Height="30" x:Name="ddglasses" Width="250" Tag="Glasses" ToolTip="Glasses" ItemTemplate="{StaticResource clothing}" SelectionChanged="ddglasses_SelectionChanged"/>

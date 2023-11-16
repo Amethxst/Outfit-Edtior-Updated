@@ -718,6 +718,12 @@ namespace xDev
                     if (!tbglassestexture.IsFocused) tbglassestexture.Text = m.memory(OUTFIT_version, (OFFSET_glasses + OFFSET_texture_head + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).Get<int>().ToString();
                     if (!tbearstexture.IsFocused) tbearstexture.Text = m.memory(OUTFIT_version, (OFFSET_earrings + OFFSET_texture_head + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).Get<int>().ToString();
                     if (!tbwatchestexture.IsFocused) tbwatchestexture.Text = m.memory(OUTFIT_version, (OFFSET_watches + OFFSET_texture_head + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).Get<int>().ToString();
+
+                    if (!tbbracelets.IsFocused) tbbracelets.Text = m.memory(OUTFIT_version, (OFFSET_bracelets + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).Get<int>().ToString();
+                    if (!tbbraceletstexture.IsFocused) tbbraceletstexture.Text = m.memory(OUTFIT_version, (OFFSET_bracelets + OFFSET_texture_head + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).Get<int>().ToString();
+
+
+
                 }
                 else
                 {
@@ -1246,6 +1252,34 @@ namespace xDev
             }
             catch (Exception) { }
         }
+
+
+        private void tbbracelets_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                if (m.IsProcOpen)
+                    m.memory(OUTFIT_version, (OFFSET_bracelets + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).SetInt((sender as TextBox).Text);
+            }
+            catch (Exception) { }
+        }
+
+        private void tbbraceletstexture_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                if (m.IsProcOpen)
+                    m.memory(OUTFIT_version, (OFFSET_bracelets + OFFSET_texture_head + ((Outfit)ddoutfitnumber.SelectedItem).Id * 0x50)).SetInt((sender as TextBox).Text);
+            }
+            catch (Exception) { }
+        }
+
+
+
+
+
+
+
 
         private void tb_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
