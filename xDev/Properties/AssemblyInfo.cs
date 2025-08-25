@@ -8,7 +8,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("xDev | lUiSBOzZ_RSG")]
-[assembly: AssemblyDescription("Outfit Editor Made by lUiSBOzZ_RSG")]
+[assembly: AssemblyDescription("Outfit Editor Made by lUiSBOzZ_RSG & yAmethxst")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Xenvious")]
 [assembly: AssemblyProduct("xDev | lUiSBOzZ_RSG")]
@@ -59,5 +59,5 @@ using System.Windows;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.61")]
-[assembly: AssemblyFileVersion("2.61")]
+[assembly: AssemblyVersion("2.71")]
+[assembly: AssemblyFileVersion("2.71")]

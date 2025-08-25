@@ -2,7 +2,7 @@
 External Outfit Editor for GTA V Online
 
 Offsets and Pointers get updated OTA
-https://pastebin.com/raw/ww39b45T
+https://amethxst.dev/offset_xdev_1.71.txt
 
 Start Page:
 ![image](https://user-images.githubusercontent.com/47217513/180398406-c9e52fd4-b9ee-49ab-a9dc-946ed9e40554.png)
