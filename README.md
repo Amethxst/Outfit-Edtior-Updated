@@ -1,7 +1,6 @@
 # Outfit-Edtior
 External Outfit Editor for GTA V Online (Updated to 1.71)
-
-![image]([https://user-images.githubusercontent.com/47217513/180398406-c9e52fd4-b9ee-49ab-a9dc-946ed9e40554.png](https://i.imgur.com/Uenay5d.png))
+<img width="1605" height="931" alt="tool" src="https://github.com/user-attachments/assets/29438544-f3a8-424b-84c4-39ebb86e72b5" />
 
 # Run Program
 Open the program in: \Outfit-Edtior - 1.71\xDev\bin\x64\Release\Outfit Editor.exe
@@ -17,6 +16,4 @@ Open the program in: \Outfit-Edtior - 1.71\xDev\bin\x64\Release\Outfit Editor.ex
 1. Disable BE from R* Launcher.
 2. Start the game with your GTAO bypass, load the story and go online.
 3. Run **Outfit Editor** as **Administrator**.
-
-
 
